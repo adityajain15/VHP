@@ -12,8 +12,8 @@ export default {
       windowHeight: window.innerHeight
     }
   },
-  methods:{
-    windowResize: function(){
+  methods: {
+    windowResize: function () {
       this.windowWidth = window.innerWidth
       this.windowHeight = window.innerHeight
     }

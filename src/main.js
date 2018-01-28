@@ -2,6 +2,7 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
+import styles from './assets/reset.css'
 
 Vue.config.productionTip = false
 
@@ -11,3 +12,5 @@ new Vue({
   components: { App },
   template: '<App/>'
 })
+
+styles.use()
