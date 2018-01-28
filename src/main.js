@@ -12,5 +12,3 @@ new Vue({
   components: { App },
   template: '<App/>'
 })
-
-styles.use()
